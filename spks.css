@@ -1,0 +1,30 @@
+.row:not(:last-child) {
+  margin-bottom:10px;
+    border-bottom: 1px solid #ccc;
+}
+.saveToApi {
+  float: right;
+  margin:4px;
+  }
+.message-form{
+  float: left;
+  width: 200px;
+  margin:4px;
+  }
+.textarea
+ {
+margin-top: 50px;
+   }
+#status-message{
+  position:fixed;
+  top: 100px;
+  left: 10%;
+  width: 80%;
+  z-index:9999;
+  border-radius:0px
+  }
+#qlik-status-message{
+    height:30px;
+    width: 80%;
+    border-radius:0px
+    }
